@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin: 30px 5vw 0 5vw;
+}
+
+.sociallogo {
+  display: flex;
+}
+
+.sociallogo a {
+  padding: 3px;
+  margin-left: 20px;
+  background: lightslategray;
+  color: white;
+  padding: auto;
+  border-radius: 10%;
+}

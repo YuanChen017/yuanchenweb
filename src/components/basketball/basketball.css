@@ -1,0 +1,30 @@
+.floor {
+    width: 65vw;
+    height: 90vh;
+    background-color: blueviolet;
+    background-image: url("../images/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-style: preserve-3d;
+    transform: rotateX(80deg);
+    position: absolute;
+    animation: rotate360;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    top: 1em;
+    box-shadow: 10px 10px 240px 100px gray;
+}
+
+@keyframes rotate360 {
+    to {
+        transform: rotateX(80deg) rotateZ(360deg);
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1500px;
+    perspective-origin: center;
+}
