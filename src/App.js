@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/home/Home";
 import Project from "./components/project/project";
 import About from "./components//about/about";
@@ -14,10 +14,10 @@ import Searchauto from "./components/searchauto/searchauto";
 import Footer from "./components/footer/footer";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Project />} />
         <Route path="/portfolio/calculate" element={<Calcut />} />
@@ -27,7 +27,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
