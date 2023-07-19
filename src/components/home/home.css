@@ -10,13 +10,6 @@
   flex: 4;
 }
 
-.selfimg img {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 9/16;
-  filter: grayscale(100%);
-}
-
 .mainhome {
   padding: 50px;
   flex: 6;

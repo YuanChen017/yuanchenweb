@@ -1,11 +1,6 @@
-import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
 const Project = () => {
-  const [like, setLike] = useState(100);
-  const [isliked, setIsliked] = useState(false);
-  const [isdisliked, setIsdisliked] = useState(false);
-  const [dislike, setDislike] = useState(25);
   return (
     <div className="Project">
       <a href="https://yuanchen017.github.io/ecommerceweb/" target="_blank">

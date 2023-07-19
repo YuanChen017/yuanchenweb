@@ -32,9 +32,9 @@ const About = () => {
               Hello there! My name is Yuan Chen. I am a front-end and node.Js
               developer, and I'm very passionate and dedicated to my work.
               <br />
-              <br /> With 2-3 years experience as a professional a front end
-              developer, I have acquired the skills and knowledge necessary to
-              make your project a success.
+              <br /> With 2-3 years experience as front end developer, I have
+              acquired the skills and knowledge necessary to make your project a
+              success.
             </div>
             <div className="info">
               {info.map((item) => {
