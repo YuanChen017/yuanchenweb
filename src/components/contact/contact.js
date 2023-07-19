@@ -9,7 +9,7 @@ const Contact = () => {
       </div>
       <div className="formsection container mt-5">
         <form
-          action="https://formsubmit.co/yuanc710@gmail.com"
+          action="https://formsubmit.co/2044fc89b99d66408c8559c416b1ddb9"
           method="POST"
           className="row g-3"
         >
