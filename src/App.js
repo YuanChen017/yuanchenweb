@@ -14,7 +14,7 @@ import Searchauto from "./components/searchauto/searchauto";
 import Footer from "./components/footer/footer";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
