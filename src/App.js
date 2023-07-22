@@ -14,7 +14,7 @@ import Footer from "./components/footer/footer";
 import Contact from "./components/contact/contact";
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/yuanchenweb">
       <Navbar />
       <Routes>
         <Route path="*" element={<Navigate to="/home" />} />
