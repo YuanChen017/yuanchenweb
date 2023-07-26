@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 import Home from "./components/home/Home";
 import Project from "./components/project/project";
 import About from "./components//about/about";
@@ -14,7 +14,7 @@ import Footer from "./components/footer/footer";
 import Contact from "./components/contact/contact";
 function App() {
   return (
-    <BrowserRouter basename="/yuanchenweb">
+    <HashRouter baseline="/">
       <Navbar />
       <Routes>
         <Route path="*" element={<Navigate to="/home" />} />
@@ -28,7 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
