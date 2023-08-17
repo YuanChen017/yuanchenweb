@@ -19,22 +19,18 @@ const About = () => {
       </div>
       <div className="about">
         <div className="aboutme">
-          <h2
-            style={{
-              fontFamily: `Cambria, Cochin, Georgia, Times, "Times New Roman", serif`,
-              fontWeight: "bold",
-            }}
-          >
-            ABOUT ME
-          </h2>
+          <h2>ABOUT ME</h2>
           <div className="aboutsection">
             <div id="about">
-              Hello there! My name is Yuan Chen. I am a front-end and node.Js
-              developer, and I'm very passionate and dedicated to my work.
-              <br />
-              <br /> With 2-3 years experience as front end developer, I have
-              acquired the skills and knowledge necessary to make your project a
-              success.
+              <p>
+                Hello there! My name is Yuan Chen. I am a front-end and node.Js
+                developer, and I'm very passionate and dedicated to my work.
+              </p>
+              <p>
+                With 2-3 years experience as front end developer, I have
+                acquired the skills and knowledge necessary to make your project
+                a success.
+              </p>
             </div>
             <div className="info">
               {info.map((item) => {
@@ -52,13 +48,21 @@ const About = () => {
             <div className="program">
               <h2>Programming</h2>
               <p>HTML & CSS</p>
-              <ProgressBar completed={80} bgColor="#8C8D8D" height="12px" />
+              <div>
+                <ProgressBar completed={80} bgColor="#8C8D8D" height="12px" />
+              </div>
               <p>Javascript</p>
-              <ProgressBar completed={90} bgColor="#8C8D8D" height="12px" />
+              <div>
+                <ProgressBar completed={90} bgColor="#8C8D8D" height="12px" />
+              </div>
               <p>React & Node</p>
-              <ProgressBar completed={75} bgColor="#8C8D8D" height="12px" />
+              <div>
+                <ProgressBar completed={75} bgColor="#8C8D8D" height="12px" />
+              </div>
               <p>Rest Api & GraphQL</p>
-              <ProgressBar completed={70} bgColor="#8C8D8D" height="12px" />
+              <div>
+                <ProgressBar completed={70} bgColor="#8C8D8D" height="12px" />
+              </div>
             </div>
             <div className="langs">
               <h2>Language</h2>
@@ -106,16 +110,12 @@ const About = () => {
           <br />
           <div className="quota">
             <h2>Favorite Quote</h2>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
+            <p>
               “For better than never is late; never to succeed would be too long
               a period.”
-              <p> - - Geoffrey Chaucer</p>
-            </div>
+            </p>
+            <p> - - Geoffrey Chaucer</p>
+            <br />
           </div>
         </div>
       </div>

@@ -10,10 +10,11 @@
 }
 
 .sociallogo a {
-  padding: 3px;
+  width: 15%;
   margin-left: 20px;
-  background: lightslategray;
-  color: white;
-  padding: auto;
+  aspect-ratio: 4/3;
+  color: #000;
+  object-fit: contain;
   border-radius: 10%;
+  padding: 2px;
 }
