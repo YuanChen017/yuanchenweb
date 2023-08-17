@@ -13,21 +13,27 @@ const Footer = () => {
           rel="noreferrer"
           target="_blank"
           className="fa fa-facebook"
-        ></a>
+        >
+          " "
+        </a>
         <a
           href="https://instagram.com/yuanc710?igshid=OGQ5ZDc2ODk2ZA=="
           without
           rel="noreferrer"
           target="_blank"
           className="fa fa-instagram"
-        ></a>
+        >
+          " "
+        </a>
         <a
           href="https://www.linkedin.com/in/yuan-chen-5862a4254/"
           without
           rel="noreferrer"
           target="_blank"
           class="fa fa-linkedin"
-        ></a>
+        >
+          " "
+        </a>
       </div>
     </div>
   );
