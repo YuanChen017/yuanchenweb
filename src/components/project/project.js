@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 const Project = () => {
   return (
     <div className="Project">
-      <a href="https://yuanchen017.github.io/ecommerceweb/" target="_blank">
+      <a
+        href="https://yuanchen017.github.io/ecommerceweb/"
+        target="_blank"
+        rel="noreferrer"
+      >
         Ecommerce web application
       </a>
       <div className="calculate m-2 p-2">
