@@ -10,9 +10,6 @@ const Project = () => {
       >
         Ecommerce web application
       </a>
-      <div className="calculate m-2 p-2">
-        <Link to="/portfolio/calculate">redirect to calculator PJ</Link>
-      </div>
       <div className="baller">
         <Link to="/portfolio/basketball">redirect to Basketball court</Link>
       </div>
