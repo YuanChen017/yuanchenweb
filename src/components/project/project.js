@@ -1,23 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./project.css";
 const Project = () => {
   return (
-    <div className="Project">
-      <a
-        href="https://yuanchen017.github.io/ecommerceweb/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Ecommerce web application
-      </a>
-      <div className="baller">
-        <Link to="/portfolio/basketball">redirect to Basketball court</Link>
+    <div className="project">
+      <div className="eachpj">
+        <a
+          href="https://yuanchen017.github.io/ecommerceweb/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Ecommerce web application
+        </a>
       </div>
-      <div className="timer">
-        <Link to="/portfolio/timer">redirect to timer</Link>
+      <div className="eachpj">
+        <Link to="/portfolio/basketball">Basketball court</Link>
       </div>
-      <div className="searchauto">
-        <Link to="/portfolio/searchauto">redirect to auto search</Link>
+      <div className="eachpj">
+        <Link to="/portfolio/timer">Timer</Link>
+      </div>
+      <div className="eachpj">
+        <Link to="/portfolio/searchauto">Auto Search</Link>
       </div>
     </div>
   );

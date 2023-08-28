@@ -1,0 +1,23 @@
+.project {
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4vw;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+.project::-webkit-scrollbar {
+	width: 0px;
+	background-color: #F5F5F5;
+}
+.eachpj{
+    width: 350px;
+    height: 40vh;
+    background-color: #f8fbfc;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px
+}
