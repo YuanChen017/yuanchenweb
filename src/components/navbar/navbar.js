@@ -1,13 +1,7 @@
 import { Link } from "react-router-dom";
-import React, { useEffect } from "react";
+import React from "react";
 import "./navbar.css";
 const Navbar = () => {
-  useEffect(() => {
-    if (window.innerWidth > 850) {
-      document.getElementsByClassName("menulinks")[0].style.display =
-        "inline-flex";
-    }
-  }, [window.innerWidth]);
   const handleopenmenu = () => {
     if (
       window.innerWidth < 850 &&

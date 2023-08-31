@@ -1,23 +1,37 @@
 .project {
-    display: flex;
-    height: 80vh;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 4vw;
-    justify-content: center;
-    align-items: center;
-    overflow-y: scroll;
+  display: flex;
+  height: 80vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 4vw;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
 }
+
 .project::-webkit-scrollbar {
-	width: 0px;
-	background-color: #F5F5F5;
+  width: 0px;
+  background-color: #f5f5f5;
 }
-.eachpj{
-    width: 350px;
-    height: 40vh;
-    background-color: #f8fbfc;
-    margin: 20px;
-    text-align: center;
-    border-radius: 20px;
-    padding: 20px
+
+.eachpj {
+  width: 350px;
+  height: 40vh;
+  background-color: #f8fbfc;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.eachpj img {
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+.eachpj a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
 }
