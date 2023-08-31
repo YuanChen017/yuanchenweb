@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/yuanchenweb/static/css/main.0cc4a737.css",
-    "main.js": "/yuanchenweb/static/js/main.77ef3c7e.js",
+    "main.css": "/yuanchenweb/static/css/main.b1da768e.css",
+    "main.js": "/yuanchenweb/static/js/main.fcc4faaf.js",
     "static/js/787.81588d33.chunk.js": "/yuanchenweb/static/js/787.81588d33.chunk.js",
     "static/media/self.jpg": "/yuanchenweb/static/media/self.dc9f4f363fb165c5a20c.jpg",
+    "static/media/comingsoon.png": "/yuanchenweb/static/media/comingsoon.6b616fd29407dc9b52b0.png",
     "index.html": "/yuanchenweb/index.html",
-    "main.0cc4a737.css.map": "/yuanchenweb/static/css/main.0cc4a737.css.map",
-    "main.77ef3c7e.js.map": "/yuanchenweb/static/js/main.77ef3c7e.js.map",
+    "main.b1da768e.css.map": "/yuanchenweb/static/css/main.b1da768e.css.map",
+    "main.fcc4faaf.js.map": "/yuanchenweb/static/js/main.fcc4faaf.js.map",
     "787.81588d33.chunk.js.map": "/yuanchenweb/static/js/787.81588d33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cc4a737.css",
-    "static/js/main.77ef3c7e.js"
+    "static/css/main.b1da768e.css",
+    "static/js/main.fcc4faaf.js"
   ]
 }
